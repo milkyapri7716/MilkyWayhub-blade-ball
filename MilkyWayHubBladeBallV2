@@ -1,0 +1,14 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("MilkyWayHub V2 God")
+
+local Bladeball = PhantomForcesWindow:NewSection("BladeBall MainTab v2")
+
+Bladeball:CreateToggle("Auto Parry ", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+  end)
+
+Bladeball:CreateToggle("Auto Spam V1 (Credits=MilkyApri7714)", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
+end)
+
+Bladeball:CreateButton("Auto Spam V2", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/milkyapri7716/Bladeball/main/MTriet-Bounty.lua.txt"))()
+end)
